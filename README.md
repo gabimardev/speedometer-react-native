@@ -25,7 +25,9 @@ Entirely developed with react native 📱.
 
 ## 🔵 Step 1: Install
 
-Setup the environment and the dependencies
+Once you have configured your environment, after that you should proceed as with any javascript project:
+
+- Go to the root folder of your project and run:
 
 ```bash
 # using npm
@@ -35,6 +37,10 @@ npm install
 yarn install
 ```
 
+to finish configuring the environment and project dependencies.
+
+>**Note**: In case you want to run the application in the emulator, you must first make sure that it is running either from **Android Studio** or **Xcode**, this step is necessary before continuing.
+
 ## 🔵 Step 2: Start the Metro Server
 
 First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
@@ -43,13 +49,15 @@ To start Metro, run the following command from the _root_ of your React Native p
 
 ```bash
 # using npm
-npm start
+npm run start
 
 # OR using Yarn
 yarn start
 ```
 
 ## 🔵 Step 3: Start your Application
+
+>**Note**: This step is optional, if before in step 2 we selected the platform where to run the application either **Android** or **iOS**, we would actually be running this same step (Step 3).
 
 Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
 
@@ -79,4 +87,4 @@ This is one way to run your app — you can also run it directly from within And
 
 ## 🚀 Congratulations! :tada:
 
-You've successfully run your React Native App. :partying_face:
+You've successfully run your Speedometer App. :partying_face:
